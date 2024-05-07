@@ -1,0 +1,16 @@
+<div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+        <header>Login</header>
+        <form (ngSubmit)="login()">
+            <input type="text" placeholder="Enter your username" [(ngModel)]="username" name="username" required>
+            <input type="password" placeholder="Enter your password" [(ngModel)]="password" name="password" required>
+            <input type="submit" class="button" value="Login">
+        </form>
+        <div class="signup">
+            <span class="signup">Don't have an account?
+                <a href="register">Signup</a>
+            </span>
+        </div>
+    </div>
+</div>

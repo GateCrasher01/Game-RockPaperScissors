@@ -1,0 +1,173 @@
+/************************************
+   CSS Reset
+*************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/************************************
+    Variables
+*************************************/
+
+// Primary Colors
+$scissors-border: hsl(39, 89%, 49%);
+$paper-border: hsl(230, 89%, 62%);
+$rock-border: hsl(349, 71%, 52%);
+$lizard-border: hsl(261, 73%, 60%);
+$cyan-border: hsl(189, 59%, 53%);
+
+// Neutral Colors
+$dark-text: hsl(229, 25%, 31%);
+$score-text: hsl(229, 64%, 46%);
+$header-outline: hsl(217, 16%, 45%);
+$light-text: hsl(0, 0%, 100%);
+
+// Background Colors
+$background-gradient-start: hsl(152.28, 98.75%, 31.37%);
+$background-gradient-end: hsl(168.82, 100%, 20%);
+$background-white: hsl(0, 0%, 100%);
+
+//Border Radius
+$border-radius: 0.5rem;
+$border-radius-circle: 50%;
+
+//Leter Spacing
+$letter-spacing: 2px;
+
+//Font Sizes
+$font-size-small: 0.9rem;
+$font-size-medium: 1.2rem;
+$font-size-large: 2rem;
+$font-size-x-large: 3.5rem;
+
+//Font Weights
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+//Margin/Padding
+$margin-regular: 1rem;
+$margin-x-large: 4rem;
+$margin-inline: auto;
+$padding-regular: 1rem;
